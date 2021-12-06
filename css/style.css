@@ -522,8 +522,10 @@ ol {
 	position: absolute;
 	width: 100px;
 	height: 100%;
-	background: #121212;
+	background: #75b3db;
 	z-index: 20;
+	display: none;
+	left: -2px;
 }
 
 .left-bar .left-bar-content {
@@ -774,7 +776,7 @@ ol {
 	height: 100%;
 	right: 0;
 	top: 0;
-	background: #222222;
+	background: #efefef;
 	z-index: 2;
 }
 
