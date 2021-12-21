@@ -445,7 +445,6 @@ ol {
 	float: left;
 	display: inline-block;
 	background: #121212;
-	padding: 20px 60px 30px;
 }
 
 .phone-number {
@@ -1813,9 +1812,6 @@ ol {
 
 /* Tablet :768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.logo-area {
-		padding: 20px 40px 30px;
-	}
 	.slide-content {
 		margin-left: 170px;
 		margin-bottom: -35px;
@@ -2067,9 +2063,6 @@ ol {
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
-	.logo-area {
-		padding: 20px 30px 30px;
-	}
 	.header-area {
 		background: #121212;
 		padding-right: 66px;
