@@ -736,7 +736,7 @@ ol {
 }
 
 .service-box .readmore {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 700;
 	color: #222222;
 	display: inline-block;
@@ -1059,14 +1059,24 @@ ol {
 	padding-bottom: 110px;
 	border-top: 1px solid #c8c8c8;
 	position: relative;
+	background: #9d9d9d57;
 }
 
 .footer-section .copyright {
 	position: absolute;
 	top: 50%;
-	margin-top: -12px;
+	transform: translateY(-50%);
 	left: 60px;
 	color: #737373;
+	display: flex;
+	flex-direction: column;
+}
+.footer-section .copyright .logo-area{
+	margin-bottom: 20px;
+	background: transparent;
+}
+.footer-section .copyright>div{
+	display: none;
 }
 
 .footer-section .footer-social {

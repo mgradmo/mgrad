@@ -1058,11 +1058,15 @@ ol {
 .footer-section .copyright {
 	position: absolute;
 	top: 50%;
-	margin-top: -12px;
+	transform: translateY(-50%);
 	left: 60px;
 	color: #737373;
+	display: flex;
+	flex-direction: column;
 }
-
+.footer-section .copyright .logo-area{
+	margin-bottom: 20px;
+}
 .footer-section .footer-social {
 	width: 75px;
 	text-align: center;

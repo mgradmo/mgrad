@@ -57,7 +57,7 @@ $(window).on('load', function() {
         dots: false,
         animateOut: 'fadeOutRight',
     	animateIn: 'fadeInLeft',
-        navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
+        navText: ['<i class="fa fa-long-arrow-left"></i> Назад', 'Далее<i class="fa fa-long-arrow-right"></i>'],
         smartSpeed: 1200,
         autoHeight: false,
         //autoplay: true,
@@ -88,7 +88,7 @@ $(window).on('load', function() {
 		nav: true,
 		loop: true,
 		margin:20,
-		navText: ['<i class="fa fa-long-arrow-left"></i> PREV', 'NEXT<i class="fa fa-long-arrow-right"></i>'],
+		navText: ['<i class="fa fa-long-arrow-left"></i> Назад', 'Далее<i class="fa fa-long-arrow-right"></i>'],
 		responsive:{
 			0:{
 				items:1,
