@@ -1936,7 +1936,38 @@ ol {
 @media only screen and (max-width: 767px) {
 	h1,
 	.sp-title {
-		font-size: 45px;
+		font-size: 35px;
+	}
+	.site-btn{
+		padding: 14px 0;
+	}
+	.about_img{
+		display: none;
+	}
+	.logo-area img{
+		width: 50%;
+	}
+	.nav-switch i{
+		transform: translateY(-13px);
+	}
+	.service-section{
+		padding: 50px 0;
+	}
+	.service-box .sb-icon {
+		background-color: #75b3db;
+	}
+	.milestone h2{
+		min-width: 152px;
+	}
+	.footer-section{
+		padding-bottom: 50px;
+	}
+	.service-box .sb-icon .sb-img-icon {
+		left: 15px;
+		margin-bottom: 5px;
+	}
+	.service-box .sb-icon .sb-img-icon img {
+		opacity: 1;
 	}
 	.page-header-section .header-title {
 		font-size: 55px;
