@@ -444,8 +444,9 @@ ol {
 .logo-area {
 	float: left;
 	display: inline-block;
-	background: transparent;
-	padding-left: 20px;
+	background: #75b3dbb8;
+	padding-left: 25px;
+	padding-top: 7px;
 }
 
 .phone-number {
@@ -457,6 +458,7 @@ ol {
 	letter-spacing: 1px;
 	margin-top: 30px;
 	margin-right: 50px;
+	Color: black;
 }
 
 .nav-switch {
@@ -559,7 +561,7 @@ ol {
 	-webkit-transform-origin: right center;
 	    -ms-transform-origin: right center;
 	        transform-origin: right center;
-	bottom: 60%;
+	bottom: 70%;
 	z-index: 30;
 	color: #fff;
 	text-transform: uppercase;
@@ -666,8 +668,10 @@ ol {
 
 .slide-content h2 {
 	color: #fff;
-	font-size: 80px;
-	line-height: 80px;
+	font-size: 76px;
+    line-height: 73px;
+    font-weight: 400;
+    padding-bottom: 15px;
 }
 
 .owl-item.active .slide-content {
@@ -914,6 +918,7 @@ ol {
 	    transform: translateX(0);
 	-webkit-transform: translateX(0);
 	opacity: 1;
+	background-size: cover;
 }
 
 .projects-slider .single-project .project-content {
