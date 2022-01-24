@@ -1973,7 +1973,7 @@ ol {
 		opacity: 1;
 	}
 	.page-header-section .header-title {
-		font-size: 55px;
+		font-size: 45px;
 	}
 	.left-bar {
 		width: 70px;
@@ -2113,6 +2113,9 @@ ol {
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
+	.page-header-section .header-title {
+		font-size: 35px;
+	}
 	.header-area {
 		background: #121212;
 		padding-right: 66px;
