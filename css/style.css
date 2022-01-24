@@ -2113,6 +2113,9 @@ ol {
 
 /* small mobile :320px. */
 @media only screen and (max-width: 479px) {
+	.service-text h2{
+		padding-top: 15px;
+	}
 	.page-header-section .header-title {
 		font-size: 35px;
 	}
