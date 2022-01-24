@@ -31,7 +31,7 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 50px;
 	margin-bottom: 40px;
 }
 
@@ -88,7 +88,7 @@ ol {
   Helper css
 --------------------------*/
 .sp-title {
-	font-size: 60px;
+	font-size: 50px;
 	margin-bottom: 40px;
 }
 
@@ -1935,7 +1935,7 @@ ol {
 /* Large Mobile :480px. */
 @media only screen and (max-width: 767px) {
 	h1,
-	.sp-title {
+	.sp-title, .page-header-section .header-title {
 		font-size: 33px;
 	}
 	.site-btn{
@@ -1949,6 +1949,9 @@ ol {
 	}
 	.nav-switch i{
 		transform: translateY(-13px);
+	}
+	.about_img{
+		display: none;
 	}
 	.service-section{
 		padding: 50px 0;
@@ -2146,5 +2149,8 @@ ol {
 	}
 	.projects-slider {
 		padding: 0 15px;
+	}
+	.promo-text h1{
+		font-size: 35px;
 	}
 }
