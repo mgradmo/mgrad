@@ -2115,6 +2115,7 @@ ol {
 @media only screen and (max-width: 479px) {
 	.service-text h2{
 		padding-top: 15px;
+		margin-bottom: 20px;
 	}
 	.page-header-section .header-title {
 		font-size: 35px;
